@@ -1,0 +1,1 @@
+<?php echo "<fieldset><legend>Editeur</legend>\n";echo "<div class=\"marge\">\n";?><textarea name="tdt">Editeur de texte.</textarea><script>  CKEDITOR.replace( 'tdt' );</script><?phpecho "</div>\n";echo "</fieldset>\n";?>

@@ -1,0 +1,1 @@
+<?phpif(!isset($_SESSION)){session_start();}if(file_exists("sys.php")){include("sys.php");}?><html lang="fr"><head><?php include("inc/inc.header.php"); ?></head><body><?php include("inc/inc.body.php"); ?></body></html>

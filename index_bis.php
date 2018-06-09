@@ -1,0 +1,1 @@
+<?phpif(!isset($_SESSION)){session_start();}if(file_exists("sys.php")){include("sys.php");}if(isset($_SESSION["js"])){   if($_SESSION["js"] == 1){retour_js();}else{retour_sans_js();}}else{   retour_sans_js();}?>
