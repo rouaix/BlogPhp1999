@@ -1,0 +1,326 @@
+/* Html --------------------------------------------------------- */
+html, address, blockquote, body, dd, div, dl, dt, fieldset, form, frame, frameset, h1, h2, h3, h4, h5, h6, noframes, ol, p, ul, center, dir, hr, menu, pre
+{ display: block; }
+li              { display: list-item; }
+head            { display: none; }
+table           { display: table; }
+tr              { display: table-row; }
+thead           { display: table-header-group; }
+tbody           { display: table-row-group; }
+tfoot           { display: table-footer-group; }
+col             { display: table-column; }
+colgroup        { display: table-column-group; }
+td, th          { display: table-cell; }
+caption         { display: table-caption; }
+input, select   { display: inline-block; }
+
+html, body, div, input, textarea, span, select, object, iframe, h1, h2, h3, h4, h5, h6, p, q, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{
+  font-weight: inherit; font-style: inherit; font-family: inherit; font-size: inherit;
+  background-color:inherit;color:inherit;
+}
+
+html{
+	display:block;font: normal 100% arial;font-family:Arial, Georgia, Times, Helvetica, sans-serif;
+	color:#000;background-color:#fff;}
+
+body {
+	display:block;
+	cursor:default;
+	margin:0 auto;padding:0;
+  line-height:1em;width:1000px;
+	color:#777;
+	}
+
+a, a:active, a:focus{text-decoration:none;}
+a:hover{color:#314d74;}
+a img{border:none;background-color:inherit;}
+
+blockquote{
+	font-style: italic;
+	color:#555;
+	font-family: Arial, Times, Georgia,  "Times New Roman", serif ;
+	padding: 5px 5px 5px 10px;
+	text-align:justify;
+	border-left :5px solid #aaa;
+	margin: 5px 5px 5px 20px;
+}
+
+button{color:#000;background-color:#AAA;height:24px;border:1px solid #AAA;cursor:pointer;vertical-align:middle;}
+button:hover{color:#AAA;background-color:#000;}
+
+caption {font-weight: bold;}
+
+div{display:block;overflow:hidden;margin:0;padding:0;clear:both;}
+div i img{ vertical-align:middle;}
+
+dl{margin:5px;padding:0;display:block;}
+dt{margin:0;display:block;}
+
+fieldset {padding:5px; border:1px solid #AAA;}
+form{margin:0;padding:0;}
+
+h1 {font-size: 18px;font-weight:bold;padding:2px;margin:0;color:#000;}
+h2 {font-size: 16px;font-weight:bold;padding:2px;margin:0;}
+h3 {font-size: 14px;font-weight:bold;padding:2px;margin:0;}
+h4 {font-size: 13px;font-weight:bold;padding:2px;margin:0;}
+h5 {font-size: 12px;font-weight:bold;padding:2px;margin:0;}
+h6 {font-size: 11px;font-weight:bold;padding:2px;margin:0;}
+
+hr{height:1;border:0;margin:1px 0 1px 0;padding:0;color:#ccc;background-color:#ccc;line-height:1;}
+
+i{font-style:italic;font-size:10px;}
+img {margin:0;border:0;vertical-align:middle;}
+input{vertical-align:middle;margin:0;padding:2px;border:1px solid #AAA;}
+
+label {font-weight:normal;margin:0;padding:0;display:inline-block;vertical-align:middle;}
+
+legend {font-weight:bold;text-align:left;font-size:13px;}
+li{margin:5px 0 0 25px;}
+ol {list-style-type: decimal;}
+p{display:block;margin:5px 0 0 0;padding:0;}
+pre{
+	white-space: pre-wrap; /* CSS 2.1 */
+	word-wrap: break-word; /* IE7 */
+}
+q {quotes: "«\0000a0" "\0000a0»";font-style:normal;color:#314d74;}
+q:before {content: open-quote;content: &ldquo;font-weight:bold;font-size:24;}
+q:after {content: close-quote;content: &rdquo;font-weight:bold;font-size:24;}
+
+select{vertical-align:middle;padding:2px;border:1px solid #AAA;}
+table {font-size:12px;border-collapse:collapse; border-spacing:0;margin:0 auto;}
+td{text-align:left; vertical-align:top;}
+
+textarea {overflow:auto;padding:2px;height:200px;text-align:left;
+font-family:Arial, Georgia, Times, Helvetica, sans-serif;
+border:1px solid #AAA;}
+
+thead, th {font-weight: bold;vertical-align:middle;}
+ul {list-style-type: square;}
+
+/* Fin Html --------------------------------------------------------- */
+
+/* Classes --------------------------------------------------------- */
+.alerte{color:#000;background-color:#eee;border:1px solid #AAA;}
+
+.blanc{color:#fff;}
+.bleu{color:#314d74;}
+.mauve{color:#654490;}
+.ibleu{background-color:#314d74;color:#fff;}
+.imauve{background-color:#654490;color:#fff;}
+.noir{color:#000;}
+.inoir{background-color:#000;color:#fff;}
+.gris3{color:#AAA;}
+.igris3{background-color:#AAA;color:#fff;}
+.grise{color:#AAA;}
+.igrise{background-color:#AAA;color:#AAA;}
+.gris{color:#AAA;}
+.igris{background-color:#AAA;color:#AAA;}
+
+.bas{vertical-align:bottom;}
+.bord{border:1px solid #AAA;}
+.bord_gauche{border-left:1px solid #AAA;}
+.bord_droit{border-right:1px solid #AAA;}
+.bord_haut{border-top:1px solid #AAA;}
+.bord_bas{border-bottom:1px solid #AAA;}
+.centre {text-align:center;}
+.centremilieu{vertical-align:middle;text-align:center;}
+
+.comment{font-style:italic;color:#314d74;}
+	div.comment{text-align:left;padding:0;margin:5px 0 5px 50px;}
+  .comment div{border-left:5px solid #314d74;padding:0;margin-top:5px;}
+	.comment i{color:#314d74;}
+	.comment img{vertical-align:middle;margin:0 0 0 5px;}
+	.comment p{margin:5px;padding:0;}
+	 #form_data.comment {width:700px;height:100px;background-color:#314d74;color:#fff;border:1px solid #000;font-weight:normal;font-size:14px;}
+
+.droite {text-align:right;}
+.droitemilieu{vertical-align:middle;text-align:right;}
+
+.footer{font-size:10px;color:#AAA;margin:0;background-color:#fff;}
+	table.footer{margin:0;width:1000px;border-top:1px solid #AAA;}
+  .footer a {text-decoration:none;color:#AAA;}
+	.footer td {padding:5px;}
+  .footer a:hover {color: #000;}
+
+.gauche {text-align:left;}                                                                                                       
+.gauchemilieu{vertical-align:middle;text-align:left;}
+.haut{vertical-align:top;}
+
+.info{background-color:#AAA;margin:5px;border:1px solid #AAA;}
+.inverse{color:#fff;background-color:#000;}
+.juste{text-align:justify;}
+.lien {cursor:pointer;}
+
+.logged{}
+
+.login{}
+form.login{background-color:transparent;padding:0;margin:0;font-size:12px;text-align:center;}
+form.login label{display:inline-block;text-align:center;}
+form.login input{background-color:transparent;border:1px solid #aaa;color:#000;text-align:center;width:90px;}
+
+form.login img#bt_info{margin-left:5px;width:16px;height:16px;border:0;}
+form.login input#bt_valider{margin:5px;width:24px;height:24px;border:0;}
+
+
+.logo {padding:0;margin:0;}
+table.logo {background-color:transparent;display:block;width:1000px;border:0;}
+	.logo td{margin:0;padding:0;vertical-align:middle;}
+	.logo td label{display:inline-block;}
+	.logo td img{background-color:transparent;margin:0;border:0;}
+	.logo td img#neologo{width:300px;margin:0;padding:0;border:0;}
+
+.marge{margin:5px;}
+.marker{background-color:#feea12;}
+.milieu{vertical-align:middle;}
+
+.nav{ background-color:transparent;}
+	div.nav{
+		display:block;
+		font-size:18px;font-weight:normal;
+		text-align:right;
+		border-bottom:1px solid #AAA;
+		background-color:transparent;
+		/*background:url(../images/fonds/nav_001.jpg)no-repeat center top;*/
+		}
+
+		a.nav, a.nav:active{display:inline-block;vertical-align:middle;margin-left:10px;margin-right:5px;}
+    a#active.nav{background-color:transparent;color:#314d74;}
+    a.nav:hover{background-color:transparent;color:#d64136;}
+		.nav img{margin-right:5px;border:0;width:24px;height:24px;}
+    .nav i{background-color:#314d74;color:#d64136;}
+
+.pad{padding:5px;}
+
+.page{background-color:#fff;color:#555;display:block;font-size:100%;margin:0;text-align:left;}
+  div.page{position:relative;padding:0;margin:0 auto;display:block;width:1000px;}
+
+.rss{background-color:#fff;text-align:left;}
+  label.rss{vertical-align:top;display:block;overflow:hidden;margin:0padding:0;}
+  .rss h1 img{border:0;padding:0;margin:0 5px 0 0;}
+  .rss a{display:block;font-weight:normal;margin:0;padding:0;}
+  .rss dl{border:0;padding:0;margin:5px 0 0 31px;}
+  .rss dt{display:block;height:auto;border:0;}
+
+.separe {margin-left:5px;margin-right:5px;}
+
+.social {height:50px;overflow:hidden;vertical-align:middle;text-align:center;}
+ img.social{width:16px;height:16px;margin-right:5px;}
+/* Fin Classes --------------------------------------------------------- */
+
+/* Id --------------------------------------------------------- */
+#10{width:10px;height:10px;}
+#12{width:12px;height:12px;}
+#16{width:16px;height:16px;}
+#24{width:24px;height:24px;}
+#32{width:32px;height:32px;}
+#60{width:60px;height:60px;}
+
+#bas{vertical-align:bottom;}
+#bord{border:1px solid #AAA;}
+#bord_gauche{border-left:1px solid #AAA;}
+#bord_droit{border-right:1px solid #AAA;}
+#bord_haut{border-top:1px solid #AAA;}
+#bord_bas{border-bottom:1px solid #AAA;}
+
+#bt_logout{margin:5px;width:24px;height:24px;border:0;}
+#bt_user_logout{margin:5px;padding:2px;border:1px solid #aaa;width:36px;height:36px;}
+
+#centre {text-align:center;}
+#centremilieu{vertical-align:middle;text-align:center;}
+#droite {text-align:right;}
+#droitemilieu{vertical-align:middle;text-align:right;}
+#gauche {text-align:left;}
+#gauchemilieu{vertical-align:middle;text-align:left;}
+#haut{vertical-align:top;}
+#inverse{color:#fff;background-color:#000;}
+#juste{text-align:justify;}
+#large {width:100%;}
+#lien {cursor:pointer;}
+#marge{margin:5px;padding:0;}
+#marker{background-color:#feea12;}
+#milieu{vertical-align:middle;}
+#pad{padding:5px;}
+#secour{color:#daa520;}
+#secour:hover{color:#ffd700;}
+
+#blanc{color:#fff;}
+#bleu{color:#314d74;}
+#mauve{color:#654490;}
+#ibleu{background-color:#314d74;color:#fff;}
+#imauve{background-color:#654490;color:#fff;}
+#noir{color:#000;}
+#inoir{background-color:#000;color:#fff;}
+#gris3{color:#333;}
+#igris3{background-color:#333;color:#fff;}
+#grise{color:#DDD;}
+#igrise{background-color:#DDD;color:#000;}
+#gris{color:#AAA;}
+#igris{background-color:#AAA;color:#000;}
+
+
+/* Fin Id --------------------------------------------------------- */
+
+/* Neo --------------------------------------------------------- */
+.neo{color:#314d74;}
+.neo a, a:active, a:focus{color:#314d74;text-decoration:none;background-color:inherit;}
+.neo a:hover{color:#000;}
+.neo a img{border:none;background-color:inherit;}
+
+.neo blockquote{
+	font-style: italic;
+	color:#314d74;
+	font-family: Arial, Times, Georgia,  "Times New Roman", serif ;
+	padding: 5px 5px 5px 10px;
+	text-align:justify;
+	border-left :5px solid #314d74;
+	margin: 5px 5px 5px 100px;
+}
+
+.neo button{color:#fff;background-color:#314d74;height:24px;border:1px solid #222;cursor:pointer;vertical-align:middle;}
+.neo button:hover{color:#000;background-color:#314d74;}
+.neo caption {font-weight: bold;}
+.neo div{position:relative;display:block;overflow:hidden;color:#314d74;}
+.neo div i img{ vertical-align:middle;}
+
+.neo dl{margin:5px;padding:0;border:1px solid #314d74;display:block;color:#314d74;}
+.neo dt{margin:5px;border-bottom:1px solid #314d74;display:block;color:#314d74;}
+.neo fieldset {padding:5px; border:1px solid #314d74;color:#314d74;}
+.neo form{margin:0;padding:0;}
+
+.neo h1 {font-size: 18px;font-weight:bold;padding:5px;color:#314d74;}
+.neo h2 {font-size: 16px;font-weight:bold;padding:5px;color:#314d74;}
+.neo h3 {font-size: 15px;font-weight:bold;padding:5px;color:#314d74;}
+.neo h4 {font-size: 13px;font-weight:bold;padding:5px;color:#314d74;}
+.neo h5 {font-size: 12px;font-weight:bold;padding:5px;color:#314d74;}
+.neo h6 {font-size: 11px;font-weight:bold;padding:5px;color:#314d74;}
+
+.neo hr{
+	border: 0px;
+ 	line-height:1px;
+  height:1px;
+	border-top: 1px solid #314d74;margin:0;padding:0;
+}
+
+.neo i{font-style:italic;font-size:10px;color:#314d74;}
+.neo img {margin:0;border:0;clear:both;vertical-align:middle;}
+
+.neo label {font-weight:normal;margin:0;padding:0;display:inline-block;}
+.neo legend {font-weight:bold;text-align:left;font-size:13px;color:#314d74;}
+.neo li{margin:5px 0 0 25px;color:#314d74;}
+.neo ol {list-style-type: decimal;color:#314d74;}
+.neo p{display:block;color:#314d74;margin:5px 0 0 0;padding:0;}
+.neo pre{
+	white-space: pre-wrap; /* CSS 2.1 */
+	word-wrap: break-word; /* IE7 */
+	color:#314d74;
+}
+.neo q {quotes: "«\0000a0" "\0000a0»";font-style:italic;font-size:12px;}
+.neo q:before {content: open-quote;content: &ldquo;font-weight:bold;font-size:16;font-style:normal;}
+.neo q:after {content: close-quote;content: &rdquo;font-weight:bold;font-size:16;font-style:normal;}
+.neo table {font-size:12px;border-collapse:collapse; border-spacing:0;margin:0 auto;color:#314d74;}
+.neo td{text-align:left; vertical-align:top;}
+
+.neo thead, th {font-weight: bold;vertical-align:middle;}
+.neo ul {list-style-type: square;}
+/* Neo --------------------------------------------------------- */

@@ -1,0 +1,271 @@
+/* Html --------------------------------------------------------- */
+html, body, div, input, textarea, span, select, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+  margin: 0; padding: 0; border: 0; 
+  font-weight: inherit; font-style: inherit; font-family: inherit; 
+  font-size: 100%;
+  }
+
+html{
+  font: normal 100% arial;font-family:Arial, Georgia, Times, Helvetica, sans-serif;color: #000;background-color:#000;
+  }
+
+body {cursor:default;color: #333;background-color:#000;}
+
+:hover{color: inherit;}
+
+a {color:#000;text-decoration:none;}
+a img {border: none;}
+a:hover {color: #000;}
+
+blockquote, q {	
+  font-style: italic;
+	padding: 0 0 0 10px;
+	border-left:5px solid #ddd;
+  margin-left:20px;
+  }
+
+button{color:#000;background-color:#eee;height:24px;border:1px solid #ddd;cursor:pointer;vertical-align:middle;}
+button:hover{color:#eee;background-color:#000;}
+
+caption {font-weight: bold;}
+
+div{margin:0;padding:0;display:block;clear:both;}
+
+fieldset {padding:5px; border:1px solid #ddd;}
+
+:focus {outline: 0;}
+
+h1 {font-size: 22px;font-weight:bold;padding:5px;}
+h2 {font-size: 20px;font-weight:bold;padding:5px;}
+h3 {font-size: 16px;font-weight:bold;padding:5px;}
+h4 {font-size: 14px;font-weight:bold;padding:5px;}
+h5 {font-size: 12px;font-weight:bold;padding:5px;}
+h6 {font-size: 10px;font-weight:bold;padding:5px;}
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {}
+
+hr{background-color:#ddd;border:0;height:1px;margin:0;padding:0;}
+
+i, i:hover {font-size:11px;}
+
+img {margin:0;border:0;clear:both;vertical-align:middle;}
+
+
+label {font-weight:bold;display:block;margin-bottom:2px;}
+legend {font-weight:bold;text-align:left;font-size:13px;color:#000;}
+
+li{margin:5px 0 0 25px;}
+
+ol {list-style-type: decimal;margin:0;padding:0;}
+
+p{margin-bottom:10px;padding:0;clear:both;}
+
+ul {list-style-type: square;margin:0;padding:0;}
+
+table {border-collapse: collapse; border-spacing: 0;margin: 0 auto;}
+table, td{text-align:left; vertical-align:top; padding: 0;}
+thead, th {font-weight: bold;vertical-align:middle;}
+
+textarea {overflow: auto;}
+
+/* Fin Html --------------------------------------------------------- */
+
+
+/* Classes --------------------------------------------------------- */
+
+.alerte{text-align:left;font-size:12px;color:#000;}
+.alerte div, div.alerte{background-color:#eee;border:1px solid #ddd;}
+.alerte h1{font-size:18px;font-weight:bold;margin:10px;}
+.alerte h2{font-size:16px;font-weight:bold;margin:10px;}
+.alerte h3{font-size:14px;font-weight:bold;margin:10px;}
+.alerte p{margin:5px;}
+
+.art{margin:0;padding:0;word-wrap:break-word;}
+.art table, table.art{border-collapse:collapse;border-spacing:0;width:100%;}
+.art #liste{border-collapse:separate;border-spacing:5px;width:100%;border:1px solid #ddd;background-color:#eee;}
+.art #titre{padding:5px;text-align:left;vertical-align:middle;background-color:#fff;font-weight:bold;width:70%;}
+.art #titre a{display:block;}
+.art #data{}
+.art #sujet{}
+.art #signature{padding:5px;text-align:center;vertical-align:middle;color:#333;background-color:#ddd;width:30%;}
+
+.footer, a {font-size:10px;color:#999;text-decoration:none;}
+.footer a:hover {color: #fff;}
+.footer td {padding:5px;}                                                                                                         
+.footer img#logo {border:0;width:60px;height:60px;}
+table.footer{margin:0;width:100%;border-top:1px solid #111;background-color:#000;} 
+/* Fin Classes --------------------------------------------------------- */
+
+
+/* Id --------------------------------------------------------- */
+
+#10{width:10px;height:10px;}
+#12{width:12px;height:12px;}
+#16{width:16px;height:16px;}
+#24{width:24px;height:24px;}
+#32{width:32px;height:32px;}
+
+#article{width:60%;text-align:justify;margin:0 auto;background-color:#fff;}
+
+/* Fin Id --------------------------------------------------------- */
+
+
+/* Daniel --------------------------------------------------------- */
+
+
+.def{width:8px;height:12px;border:0;}
+
+
+
+
+.form{text-decoration:none;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+div.form{width:500px;border:1px solid #ddd;margin:0 5px 0 0;}
+img.form {width:36px;height:36px;float:left;margin:0 5px 5px 0;}  
+span.form {float:right;}
+table.form{margin:0;}    
+form.form {display:inline;}
+
+.form p{margin:5px;}
+.form fieldset{border:1px solid #ddd;}
+
+.form td{vertical-align:middle;padding:5px;}
+.form th{background-color:#f5f5f5;margin:0;padding:5px;border-bottom:1px solid #b0c4de;font-weight:normal;}
+.form textarea{width:240px;height:48px;border:1px solid #ddd;padding:0;text-align:center;}
+
+.form input,select {width:240px;line-height:24px;height:24px;border:1px solid #ddd;text-align:center;vertical-align:middle;}
+.form input#img {width:24px;height:24px;border:0;padding:0;margin:0;}
+.form input#go {width:100px;cursor:pointer;font-weight:bold;background-color:#a1e3ba;}
+.form input#gos {width:100px;cursor:pointer;font-weight:bold;background-color:#e3a1a1;}
+.form label, label.form{text-align:right;margin-right:5px;vertical-align:middle;}
+
+
+
+
+.info{background-color:#eee;font-size:11px;padding:5px;margin:5px;border:1px solid #ddd;}
+.info p {margin-top:5px;}
+.info a{color:#444;}
+.info a:hover{color:#4169e1;}
+
+.inverse{color:#fff;background-color:#000;}
+#inverse{color:#fff;background-color:#000;}
+
+#large {width:100%;}
+
+
+
+.liste{list-style: none;border:1px solid #ddd;}
+.liste ul {list-style-type: disc;margin:5px;padding:5px;}
+.liste li{margin:0;padding:5px;}
+
+.logo {margin:0;padding:0;}
+table.logo{width:100%;height:100%;border:0;background-color:#000;}
+div.logo{display:block;height:50px;overflow:hidden;margin:0;padding:0;}
+
+.login {color:#fff;font-size:12px;}
+td.login{vertical-align:middle;}
+img.login {vertical-align:middle;}
+img#photo.login {height:32px;margin-left:5px;border:0;}
+img#ico.login {width:16px;height:16px;margin-left:5px;border:0;vertical-align:top;}
+a.login {color:#aaa;}
+a:hover.login {color:#fff;}
+
+td.login{vertical-align:middle;text-align:center;padding:3px;}
+input.login {width:120px;height:20px;text-align:center;margin-left:4px;border:1px solid #555;background-color:#444;color:#999;}
+#valider.login {cursor:pointer;width:30px;border:0;background-color:#000;}
+
+.marge{margin:5px;padding:0;}
+#marge{margin:5px;padding:0;}
+
+.marker{background-color:#f8e942;}
+
+.nav{font-size:14px;font-weight:bold;background-color:#111;}
+table.nav{border-collapse:collapse;border-spacing:0;border:0;margin:0 auto;}
+.nav td{padding:5px 10px 5px 10px;border:0;text-align:center;vertical-align:middle;color:#666;}
+.nav a{cursor:pointer;margin:0;color:#666;display:block;}
+.nav a:hover{color:#fff;}
+.nav td#active, .nav a#active, .nav td#active:hover, .nav a#active:hover{color:000;background-color:#fff;}
+
+
+.pad{padding:5px;}
+#pad{padding:5px;}
+
+.page{background-color:#fff;color:#000;font-size:12px;display:block;padding:0 0 1px 0;margin:0;}
+#page{background-color:#fff;color:#000;font-size:12px;display:block;padding:0 0 1px 0;margin:0;}
+
+#secour{color:#daa520;}
+#secour:hover{color:#ffd700;}
+
+.separe {margin-left:5px;margin-right:5px;}
+
+.stabilo{background-color:#feea12;}
+#stabilo{background-color:#feea12;}
+
+
+/* Daniel --------------------------------------------------------- */
+.clear,.vide {clear: both;}
+.vide {display: block;font-size: 0;line-height: 0;height: 0;}
+
+.site {clear:both;}
+div.site{display:block;}
+
+#bord{border:1px solid #ddd;}
+#bord_gauche{border-left:1px solid #ddd;}
+#bord_droit{border-right:1px solid #ddd;}
+#bord_haut{border-top:1px solid #ddd;}
+#bord_bas{border-bottom:1px solid #ddd;}
+
+.bord{border:1px solid #ddd;}
+.bord_gauche{border-left:1px solid #ddd;}
+.bord_droit{border-right:1px solid #ddd;}
+.bord_haut{border-top:1px solid #ddd;}
+.bord_bas{border-bottom:1px solid #ddd;}
+
+#lien {cursor:pointer;}
+.lien {cursor:pointer;}
+
+#milieu{vertical-align:middle;}
+#haut{vertical-align:top;}
+#bas{vertical-align:bottom;}
+
+#gauche {text-align:left;} 
+#centre {text-align:center;}
+#droite {text-align:right;}
+#juste{text-align:justify;}
+
+#centremilieu{vertical-align:middle;text-align:center;}
+.centremilieu{vertical-align:middle;text-align:center;}
+#droitemilieu{vertical-align:middle;text-align:right;}
+.droitemilieu{vertical-align:middle;text-align:right;}
+#gauchemilieu{vertical-align:middle;text-align:left;}
+.gauchemilieu{vertical-align:middle;text-align:left;}
+
+.milieu{vertical-align:middle;}
+.haut{vertical-align:top;}
+.bas{vertical-align:bottom;}
+
+.gauche {text-align:left;} 
+.centre {text-align:center;}
+.droite {text-align:right;}
+.juste{text-align:justify;}
+
+#pad{padding:5px;}
+.pad{padding:5px;}
+
+#rouge{color:red;}
+#vert{color:green;}
+#bleu{color:blue;}
+#jaune{color:yellow;}
+#orange{color:gold;}
+#noir{color:#000;}
+
+.pop {
+  text-align: center;
+  vertical-align: middle;
+}
+div.pop{border:1px solid #ddd;margin:5px;}
+form.pop{width:50%;height:100%;margin:5px;padding:10px;text-align: center;border:1px solid #ddd;}
+label.pop{margin:5px;padding:0;text-align: left;}
+input.pop{width:90%;height:20px;text-align: left;border:1px solid #ddd;}
+select.pop{width:90%;height:20px;text-align: left;border:1px solid #ddd;}
+textarea.pop{width:90%;height:100px;text-align: left;border:1px solid #ddd;}
+input#image.pop{width:32px;height:32px;margin-top:10px;margin-bottom:10px;border:1px solid #ddd;}
