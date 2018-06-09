@@ -1,0 +1,1 @@
+<div class="page"><table class="logo"><tr><td><img src="images/logos/logo_noir.png" id="neologo"></td><td width="700px"><?php inclure("inc/inc.navigation.php"); ?></td></tr></table><?php   page();?></div><?php inclure("inc/inc.footer.php");?>

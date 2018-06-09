@@ -1,0 +1,1 @@
+<?php//if($_SESSION["js"]=="1"){   $pagesok = array("article","vote","document");   if (est_administrateur($_SESSION["userid"])){      if (in_array($_SESSION["page"],$pagesok)){         echo "<script>CKEDITOR.replace( 'form_data' );</script>";      }   }//}?>
